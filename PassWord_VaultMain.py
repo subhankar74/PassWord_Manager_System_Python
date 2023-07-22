@@ -1,10 +1,8 @@
-from tkinter import CENTER,Tk,Label,Button,Entry,Frame,END,Toplevel
-from tkinter import ttk
+from tkinter import *
 import tkinter as tk
 from db_operation import DbOperations
 import sqlite3
 import hashlib
-from tkinter import *
 from tkinter import simpledialog
 from functools import partial
 import uuid
